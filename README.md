@@ -14,7 +14,7 @@ I'm currently working as a **QA Engineer at Yazaki North America** (Tier-1 autom
 - 🎓 **Education:** Master's in Artificial Intelligence @ Tecmilenio (graduating Aug 2026).
 - 🧪 **Learning:** Pytest, Playwright, and QA Automation patterns.
 - 🔍 **Open to:** QA Automation Engineer, SDET, and Software Engineer roles.
-- 📍 **Location:** Durango → Monterrey | Remote | Open to relocation.
+- 📍 **Location:** Guadalajara | Remote | Open to relocation.
 
 <br/>
 
