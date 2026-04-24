@@ -66,8 +66,8 @@ Web application for 8D non-conformance tracking and corrective action management
 **Tractopartes API + AI Agent — Client Project**
 REST API + AI-powered inventory agent for automotive parts business.
 > `FastAPI` `PostgreSQL` `Python` `Groq API` — *Client-facing deployment*
->
-> **Axionix — Business Operating System** *(Founder & Lead Developer)*
+
+**Axionix — Business Operating System** *(Founder & Lead Developer)*
 > Full-stack SaaS platform and POS system for SMBs. Three product divisions (Core SaaS, POINT POS, Enterprise) sharing a unified auth, DB and real-time sync layer. Deployed to 6+ active clients across Mexico.
 > > `React` `JSX` `Vercel` `HTML/CSS` — *[Live · axionix-seven.vercel.app](https://axionix-seven.vercel.app/index.html)*
 
