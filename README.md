@@ -1,6 +1,6 @@
 # Hi 👋 I'm Rodrigo Santana
 
-### Software Engineer & QA Automation
+### Software Engineer & AI engineer
 
 I build software that solves problems most developers never see — because I've spent 2+ years inside the problem, in production.
 
