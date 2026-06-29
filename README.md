@@ -1,78 +1,115 @@
-# Hi 👋 I'm Rodrigo Santana
+# Hi, I'm Rodrigo Santana 👋
 
-### Software Engineer & AI engineer
+**AI Engineer · Quality Engineering Background · M.Sc. Artificial Intelligence (Dec 2026)**
 
-I build software that solves problems most developers never see — because I've spent 2+ years inside the problem, in production.
+I build AI-powered systems for environments where software failures have physical consequences. My background is 3+ years as a Quality Engineer in Tier-1 automotive manufacturing (Ford, GM, Stellantis supply chain) — which means I don't just write models, I understand the operational context they live in: what a defect escape costs, why interpretability matters when you're answering to Ford, and how to frame a business decision as an ML problem.
 
-I'm currently working as a **QA Engineer at Yazaki North America** (Tier-1 automotive, PHEV electronics), where I design and deploy internal tools that replace manual quality workflows with production-grade web applications. I am transitioning fully into **QA Automation / Software Engineering** roles, bringing a background that most developers don't have: real-world domain expertise in high-stakes manufacturing environments where software failures have physical consequences.
+Currently transitioning fully into AI Engineering, with production experience in Claude API + LangChain + FastAPI and a growing ML portfolio anchored in real industrial data.
 
-<br/>
+---
 
-### 📌 Current Status
+## 🔧 What I build
 
-- 🏭 **Working:** QA Engineer @ Yazaki North America — shipping internal software for manufacturing.
-- 🎓 **Education:** Master's in Artificial Intelligence @ Tecmilenio (graduating Aug 2026).
-- 🧪 **Learning:** Pytest, Playwright, and QA Automation patterns.
-- 🔍 **Open to:** QA Automation Engineer, SDET, and Software Engineer roles.
-- 📍 **Location:** Guadalajara | Remote | Open to relocation.
+```python
+stack = {
+    "AI / ML":     ["Claude API", "LangChain", "scikit-learn", "XGBoost",
+                    "IBM Watson AutoAI", "pandas", "SMOTE", "GridSearchCV"],
+    "Backend":     ["FastAPI", "Python", "Node.js", "PostgreSQL", "Supabase"],
+    "Frontend":    ["React", "Next.js", "Vite", "Tailwind CSS"],
+    "Deployment":  ["Vercel", "Railway", "Docker"],
+    "Domain":      ["IATF 16949", "SPC", "APQP", "8D", "FMEA",
+                    "Automotive Quality", "PHEV Electronics"],
+}
+```
 
-<br/>
+---
 
-### 🛠️ My Skill Set
+## 🚀 Featured Projects
 
-<table align="center">
-  <tr>
-    <td align="center" width="33%"><b>Frontend</b></td>
-    <td align="center" width="33%"><b>Backend & Data</b></td>
-    <td align="center" width="33%"><b>Tools & Infra</b></td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,vite,tailwind" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=python,fastapi,nodejs,postgres,sqlite,supabase" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=git,docker,vercel,linux" />
-      </a>
-    </td>
-  </tr>
-</table>
+### 🦇 Batcomputer ML — Interactive ML Explainer
+> *Teaching ML to non-technical audiences through real industrial data*
 
-> **Data / AI & Testing:** pandas, numpy, Groq API, LangChain | Pytest, Playwright
+Single-page interactive web experience covering the full machine learning workflow applied to a real automotive sensor classification problem (462 Hall-effect sensors, Ford South Africa failure analysis). Features a live precision/recall trade-off slider, scroll-triggered chapter narrative, and Python code snippets — built to communicate ML decisions to non-technical stakeholders.
 
-<br/>
+`React` `Vite` `Tailwind` `Framer Motion`
+[🌐 Live](https://batcomputer-ml-educativo.vercel.app/)
 
-### 🚀 Featured Projects
+---
 
-**StatPro Industrial — SPC Platform**
-Offline-first Statistical Process Control web platform deployed inside Yazaki's corporate firewall. Zero external dependencies.
-> `React` `Vite` `JavaScript` `IATF 16949` — *Active production use*
+### 📓 Batcomputer ML — End-to-End Colab Notebook
+> *63-cell ML pipeline on real industrial data, explained line by line*
 
-**FA Report Automation System — Document Automation**
-Full-stack system that auto-generates 12-page technical PDFs from raw inspection data.
-> `FastAPI` `PyMuPDF` `Next.js` `Supabase` `Python` — *Replaced 100% manual process*
+Complete Jupyter notebook covering EDA, preprocessing, 5-model comparison, custom decision thresholds, cross-validation, feature importance, GridSearchCV hyperparameter tuning, and SMOTE class balancing — on a real dataset of 462 automotive current sensors. Every code line is commented; every section builds intuition before code.
 
-**8D Quality Management System — Internal Tool**
-Web application for 8D non-conformance tracking and corrective action management.
-> `React` `Node.js` `SQLite` — *Internal deployment*
+**Results:** 79% villain recall → 82% precision after SMOTE · `Margen_Ford_mV` confirmed as top feature · threshold tuned from business cost asymmetry (escaped defect >> false rejection)
 
-**Tractopartes API + AI Agent — Client Project**
-REST API + AI-powered inventory agent for automotive parts business.
-> `FastAPI` `PostgreSQL` `Python` `Groq API` — *Client-facing deployment*
+`Python` `scikit-learn` `XGBoost` `imbalanced-learn` `pandas` `matplotlib`
+[📓 Open in Colab](#) · [📁 GitHub Repo](#)
 
-**Axionix — Business Operating System** *(Founder & Lead Developer)*
-> Full-stack SaaS platform and POS system for SMBs. Three product divisions (Core SaaS, POINT POS, Enterprise) sharing a unified auth, DB and real-time sync layer. Deployed to 6+ active clients across Mexico.
-> > `React` `JSX` `Vercel` `HTML/CSS` — *[Live · axionix-seven.vercel.app](https://axionix-seven.vercel.app/index.html)*
+---
 
-<br/>
+### 🤖 Predictive Maintenance — IBM AutoAI + Next.js
+> *AutoML pipeline from model selection to production deployment*
 
-### 📫 Let's Connect
+End-to-end predictive maintenance classifier on the AI4I industrial benchmark dataset. Uses IBM Watson AutoAI to train and compare models, deployed as an interactive Next.js application. Demonstrates the full cycle from AutoML to production inference UI.
 
-[LinkedIn](TULINKDELINKEDINAQUI) • [Email](mailto:TUCORREOAQUI)
+`IBM Watson AutoAI` `Next.js` `Vercel` `Python` `scikit-learn`
+[📓 Colab](https://colab.research.google.com/drive/1394slKkrrFrh3NdkriYK7LtGKczcvQYI?usp=sharing) · [📁 GitHub](https://github.com/rodrigost1455-hub/Mantenimiento_Predictivo_MJ)
+
+---
+
+### 📊 StatPro Industrial — SPC Platform
+> *Offline-first SPC web platform deployed inside Yazaki's corporate firewall*
+
+Production-grade Statistical Process Control platform with Cp/Cpk/Pp/Ppk, P-Charts, Attribute Gage R&R, and PDF/XLSX export. Zero external dependencies — fully functional inside a closed corporate network. Active internal use at Yazaki YED.
+
+`React` `Vite` `JavaScript` `IATF 16949`
+[🌐 Live](https://stat-pro-ebcp.vercel.app/)
+
+---
+
+### ⚙️ FA Report Automation System
+> *12-page technical PDFs generated automatically from raw inspection data*
+
+Full-stack system that replaces a 3-hour manual process with a sub-2-minute automated pipeline. Inspectors input raw failure analysis data; the system generates a complete, formatted 12-page PDF report. Deployed on Railway with FastAPI + Next.js + Supabase.
+
+`FastAPI` `PyMuPDF` `Next.js` `Supabase` `Railway` `Python`
+
+---
+
+### 📋 8D Quality Management System
+> *Internal non-conformance tracking and corrective action platform*
+
+Web application for 8D problem-solving workflow management: D1–D8 wizard, SLA banners, email notifications, and executive reporting. Built as an alternative to Power Apps for Yazaki's Dev/IT stack.
+
+`React` `FastAPI` `PostgreSQL` `Railway`
+
+---
+
+### 🏪 Axionix — Business Operating System *(Founder & Lead Developer)*
+> *Multi-tenant SaaS platform for SMBs — 6+ active clients*
+
+Full-stack SaaS and POS system across three product divisions (Core SaaS, POINT POS, Enterprise) sharing unified auth, DB, and real-time sync. WhatsApp AI agent handling 1,800+ SKUs. Active deployments across Durango, Mexico.
+
+`React` `FastAPI` `Supabase` `Next.js` `Vercel` `Twilio`
+[🌐 Live](https://axionix-seven.vercel.app/)
+
+---
+
+## 📌 Now
+
+- 🏭 **Working:** Quality/AI Engineer @ Yazaki YED — building internal AI tools for manufacturing
+- 🎓 **Studying:** M.Sc. Artificial Intelligence @ Universidad Tecmilenio (Dec 2026)
+- 🌍 **Open to:** AI Engineer, ML Engineer, Forward Deployed Engineer roles — Mexico (~40k MXN) or international (~90k USD). Open to relocation.
+- 🔑 **Differentiator:** Claude API + LangChain + FastAPI in production, anchored by real domain expertise in automotive quality
+
+---
+
+## 📫 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/tu-perfil)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:tu@email.com)
+
+---
+
+*4× Anthropic Certified (Claude API · Agent Skills · MCP · Claude Code) · C1 English (ITEP)*
