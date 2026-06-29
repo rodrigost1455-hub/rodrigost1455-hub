@@ -53,7 +53,7 @@ Complete Jupyter notebook covering EDA, preprocessing, 5-model comparison, custo
 
 End-to-end predictive maintenance classifier on the AI4I industrial benchmark dataset. Uses IBM Watson AutoAI to train and compare models, deployed as an interactive Next.js application. Demonstrates the full cycle from AutoML to production inference UI.
 
-`IBM Watson AutoAI` `Next.js` `Vercel` `Python` `scikit-learn`
+`Python` `scikit-learn` `XGBoost` `imbalanced-learn` `pandas` `matplotlib`
 [📓 Colab](https://colab.research.google.com/drive/1394slKkrrFrh3NdkriYK7LtGKczcvQYI?usp=sharing) · [📁 GitHub](https://github.com/rodrigost1455-hub/Mantenimiento_Predictivo_MJ)
 
 ---
